@@ -1,0 +1,16 @@
+{
+  "name": "markdown-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nearleyc gram.ne -o gram.js && jest test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^19.0.2",
+    "nearley": "^2.8.0",
+    "ramda": "^0.23.0"
+  }
+}
